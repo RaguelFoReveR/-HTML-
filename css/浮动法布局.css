@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	padding: 20px;
+	margin: 0 auto;
+	border: 1px  solid #999;
+	background: #eee;
+	height: 430px;
+}
+.personal{
+	padding: 20px;
+	width: 78px;
+	border: 1px  solid #999;
+	position: absolute;	
+	top: 20px;
+	right: 20px;
+	background:white;
+}
+.outerWrap{
+	float: left;
+	width: 100%;
+	margin-left: -120px;
+}
+.innerWrap{
+	margin-left: 120px;
+}
+.mainWrap{
+	width:100%;
+	float:right;
+	margin-right:-200px;
+}
+.main{
+	margin-right: 220px;
+	border: 1px  solid #999;
+	background: white;
+	margin-top: -1px;
+	margin-left:20px;
+	max-height: 450px;
+	min-width: 50px;
+}
+.main p{
+	display: block;
+	background: white;
+	margin: 20px 20px 20px 20px;
+	max-height: 432px;
+	overflow: hidden;
+}
+.team{
+	padding: 20px;
+	width: 158px;
+	border: 1px  solid #999;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background:white;
+}
+
+.teamName{
+	
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+
+.teamLogo,.personLogo01,.personLogo02,.personLogo03,.personLogo04{
+	
+	width: 80px;
+	height:80px;
+	border: 1px  solid #999;
+	background: #eee;
+}
+.personLogo01{
+	margin: 0 20px 20px 0;
+}
+.personLogo02,.personLogo03{
+	margin: 20px 20px 20px 0;
+}
+.personLogo04{
+	margin: 20px 20px 0 0;
+}
